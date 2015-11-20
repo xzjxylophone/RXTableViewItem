@@ -10,13 +10,15 @@
 		58C4148B1BFEAD490053F438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4148A1BFEAD490053F438 /* main.m */; };
 		58C4148E1BFEAD490053F438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4148D1BFEAD490053F438 /* AppDelegate.m */; };
 		58C414961BFEAD490053F438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C414951BFEAD490053F438 /* Assets.xcassets */; };
-		58C414AB1BFEAD570053F438 /* RXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A21BFEAD570053F438 /* RXTableViewCell.m */; };
+		58C414AB1BFEAD570053F438 /* RXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A21BFEAD570053F438 /* RXCell.m */; };
 		58C414AC1BFEAD570053F438 /* RXConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A41BFEAD570053F438 /* RXConfigCell.m */; };
 		58C414AD1BFEAD570053F438 /* RXFICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A61BFEAD570053F438 /* RXFICell.m */; };
 		58C414AE1BFEAD570053F438 /* RXFunctionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A81BFEAD570053F438 /* RXFunctionItem.m */; };
 		58C414AF1BFEAD570053F438 /* RXTVSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414AA1BFEAD570053F438 /* RXTVSectionItem.m */; };
 		58C414B31BFEAE040053F438 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414B11BFEAE040053F438 /* MainViewController.m */; };
 		58C414B41BFEAE040053F438 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C414B21BFEAE040053F438 /* MainViewController.xib */; };
+		58C415191BFEFA1D0053F438 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C415171BFEFA1D0053F438 /* TestCell.m */; };
+		58C4151A1BFEFA1D0053F438 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C415181BFEFA1D0053F438 /* TestCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,8 @@
 		58C4148D1BFEAD490053F438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58C414951BFEAD490053F438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C4149A1BFEAD490053F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58C414A11BFEAD570053F438 /* RXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTableViewCell.h; sourceTree = "<group>"; };
-		58C414A21BFEAD570053F438 /* RXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTableViewCell.m; sourceTree = "<group>"; };
+		58C414A11BFEAD570053F438 /* RXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXCell.h; sourceTree = "<group>"; };
+		58C414A21BFEAD570053F438 /* RXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXCell.m; sourceTree = "<group>"; };
 		58C414A31BFEAD570053F438 /* RXConfigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXConfigCell.h; sourceTree = "<group>"; };
 		58C414A41BFEAD570053F438 /* RXConfigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXConfigCell.m; sourceTree = "<group>"; };
 		58C414A51BFEAD570053F438 /* RXFICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXFICell.h; sourceTree = "<group>"; };
@@ -40,6 +42,9 @@
 		58C414B11BFEAE040053F438 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		58C414B21BFEAE040053F438 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		58C414B51BFEAEA40053F438 /* RXTableViewItemHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXTableViewItemHeader.h; sourceTree = "<group>"; };
+		58C415161BFEFA1D0053F438 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		58C415171BFEFA1D0053F438 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		58C415181BFEFA1D0053F438 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				58C414B01BFEAE040053F438 /* MainViewController.h */,
 				58C414B11BFEAE040053F438 /* MainViewController.m */,
 				58C414B21BFEAE040053F438 /* MainViewController.xib */,
+				58C415161BFEFA1D0053F438 /* TestCell.h */,
+				58C415171BFEFA1D0053F438 /* TestCell.m */,
+				58C415181BFEFA1D0053F438 /* TestCell.xib */,
 			);
 			path = RXTableViewItemExample;
 			sourceTree = "<group>";
@@ -96,8 +104,8 @@
 		58C414A01BFEAD570053F438 /* RXTableViewItem */ = {
 			isa = PBXGroup;
 			children = (
-				58C414A11BFEAD570053F438 /* RXTableViewCell.h */,
-				58C414A21BFEAD570053F438 /* RXTableViewCell.m */,
+				58C414A11BFEAD570053F438 /* RXCell.h */,
+				58C414A21BFEAD570053F438 /* RXCell.m */,
 				58C414A31BFEAD570053F438 /* RXConfigCell.h */,
 				58C414A41BFEAD570053F438 /* RXConfigCell.m */,
 				58C414A51BFEAD570053F438 /* RXFICell.h */,
@@ -171,6 +179,7 @@
 			files = (
 				58C414961BFEAD490053F438 /* Assets.xcassets in Resources */,
 				58C414B41BFEAE040053F438 /* MainViewController.xib in Resources */,
+				58C4151A1BFEFA1D0053F438 /* TestCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,11 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C414AE1BFEAD570053F438 /* RXFunctionItem.m in Sources */,
+				58C415191BFEFA1D0053F438 /* TestCell.m in Sources */,
 				58C414AC1BFEAD570053F438 /* RXConfigCell.m in Sources */,
 				58C414AD1BFEAD570053F438 /* RXFICell.m in Sources */,
 				58C414B31BFEAE040053F438 /* MainViewController.m in Sources */,
 				58C414AF1BFEAD570053F438 /* RXTVSectionItem.m in Sources */,
-				58C414AB1BFEAD570053F438 /* RXTableViewCell.m in Sources */,
+				58C414AB1BFEAD570053F438 /* RXCell.m in Sources */,
 				58C4148E1BFEAD490053F438 /* AppDelegate.m in Sources */,
 				58C4148B1BFEAD490053F438 /* main.m in Sources */,
 			);

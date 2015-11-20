@@ -12,11 +12,11 @@
 
 @interface RXFunctionItem : NSObject
 
-@property (nonatomic, copy) NSString *iconName;
-@property (nonatomic, copy) NSString *title;
-@property (nonatomic, assign) SEL action;
-@property (nonatomic, assign) int type;
-@property (nonatomic, strong) id object;
+@property (nonatomic, copy) NSString *iconName;     // 图片名称
+@property (nonatomic, copy) NSString *title;        // 名称
+@property (nonatomic, assign) SEL action;           // action
+@property (nonatomic, assign) int type;             // type
+@property (nonatomic, strong) id object;            // 扩展数据
 
 
 

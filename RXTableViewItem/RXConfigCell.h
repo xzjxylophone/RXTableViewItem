@@ -6,8 +6,10 @@
 //  Copyright © 2015年 Rush.D.Xzj. All rights reserved.
 //
 
-#import "RXTableViewCell.h"
+#import "RXCell.h"
 
-@interface RXConfigCell : RXTableViewCell
+
+// 配置Cell
+@interface RXConfigCell : RXCell
 
 @end

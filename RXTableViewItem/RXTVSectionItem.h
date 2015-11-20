@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface RXTVSectionItem : NSObject
-
+// 这个section所有的items
 @property (nonatomic, strong) NSArray *items;
-
 // 有可能是字符串,view等等
 @property (nonatomic, strong) id data;
 

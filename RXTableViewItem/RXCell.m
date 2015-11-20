@@ -1,14 +1,14 @@
 //
-//  RXTableViewCell.m
+//  RXCell.m
 //  Taka
 //
 //  Created by Rush.D.Xzj on 15-1-20.
 //  Copyright (c) 2015年 Rush.D.Xzj. All rights reserved.
 //
 
-#import "RXTableViewCell.h"
+#import "RXCell.h"
 
-@implementation RXTableViewCell
+@implementation RXCell
 
 
 - (void)setData:(id)data

@@ -20,7 +20,6 @@
 
 - (id)initWithIconName:(NSString *)iconName title:(NSString *)title action:(SEL)action type:(int)type object:(id)object
 {
-    
     if (self = [self init]) {
         self.iconName = iconName;
         self.title = title;
@@ -29,6 +28,12 @@
         self.object = object;
     }
     return self;
+}
+
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"iconName:%@,title:%@,type:%zd", self.iconName, self.title, self.type];
 }
 
 @end

@@ -9,7 +9,7 @@
 #ifndef RXTableViewItemHeader_h
 #define RXTableViewItemHeader_h
 
-#import "RXTableViewCell.h"
+#import "RXCell.h"
 #import "RXConfigCell.h"
 #import "RXFICell.h"
 #import "RXFunctionItem.h"

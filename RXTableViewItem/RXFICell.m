@@ -9,8 +9,6 @@
 #import "RXFICell.h"
 #import "RXFunctionItem.h"
 @interface RXFICell ()
-@property (nonatomic, assign) CGRect rectLblNoIV;
-@property (nonatomic, assign) CGRect rectLblHaveIV;
 
 
 @end
@@ -22,11 +20,8 @@
 {
     if ([data isKindOfClass:[RXFunctionItem class]]) {
         RXFunctionItem *tmp = data;
-        
         [self.iv removeFromSuperview];
         [self.lbl removeFromSuperview];
-        
-        
         UIImage *image = [UIImage imageNamed:tmp.iconName];
         if (image != nil) {
             self.iv.image = image;
@@ -41,10 +36,7 @@
         }
         CGFloat left = self.lbl.frame.origin.x;
         CGFloat height = self.frame.size.height;
-        
         self.vLine.frame = CGRectMake(left, height - 0.5, [UIScreen mainScreen].bounds.size.width - left, 0.5);
-        
-        
     } else {
         
     }
@@ -55,30 +47,23 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         CGFloat width = [UIScreen mainScreen].bounds.size.width;
         CGFloat height = 48;
-        
         CGFloat ivX = 15;
         CGFloat ivWidth = 20;
         CGFloat ivHeight = ivWidth;
         CGFloat ivY = (height - ivHeight) / 2.0f;
         self.iv = [[UIImageView alloc] initWithFrame:CGRectMake(ivX, ivY, ivWidth, ivHeight)];
-        
         CGFloat lblHeight = 30;
         CGFloat lblY = (height - lblHeight) / 2.0;
         CGFloat paddingLblAndIv = 10;
         self.rectLblNoIV = CGRectMake(ivX, lblY, width - ivX * 2, lblHeight);
         self.rectLblHaveIV = CGRectMake(ivX + ivWidth + paddingLblAndIv, lblY, width - ivWidth - 3*ivX, lblHeight);
-        
         self.lbl = [[UILabel alloc] initWithFrame:self.rectLblHaveIV];
-        
-        
         CGFloat ivArrowWidth = 20;
         CGFloat ivArrowHeight = 20;
         CGFloat ivArrowX = width - ivWidth - 10;
         CGFloat ivArrowY = (height - ivArrowHeight) / 2.0;
         self.ivArrow = [[UIImageView alloc] initWithFrame:CGRectMake(ivArrowX, ivArrowY, ivArrowWidth, ivArrowHeight)];
-        
         [self addSubview:self.ivArrow];
-        
         CGFloat vLineX = self.rectLblHaveIV.origin.x;
         CGFloat vLineWidth = width - vLineX;
         self.vLine = [[UIView alloc] initWithFrame:CGRectMake(vLineX, height - 0.5, vLineWidth, 0.5)];
