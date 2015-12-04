@@ -10,7 +10,6 @@
 #define RXTableViewItemHeader_h
 
 #import "RXCell.h"
-#import "RXConfigCell.h"
 #import "RXFICell.h"
 #import "RXFunctionItem.h"
 #import "RXTVSectionItem.h"

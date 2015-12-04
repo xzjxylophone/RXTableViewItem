@@ -11,7 +11,6 @@
 		58C4148E1BFEAD490053F438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4148D1BFEAD490053F438 /* AppDelegate.m */; };
 		58C414961BFEAD490053F438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C414951BFEAD490053F438 /* Assets.xcassets */; };
 		58C414AB1BFEAD570053F438 /* RXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A21BFEAD570053F438 /* RXCell.m */; };
-		58C414AC1BFEAD570053F438 /* RXConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A41BFEAD570053F438 /* RXConfigCell.m */; };
 		58C414AD1BFEAD570053F438 /* RXFICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A61BFEAD570053F438 /* RXFICell.m */; };
 		58C414AE1BFEAD570053F438 /* RXFunctionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414A81BFEAD570053F438 /* RXFunctionItem.m */; };
 		58C414AF1BFEAD570053F438 /* RXTVSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C414AA1BFEAD570053F438 /* RXTVSectionItem.m */; };
@@ -30,8 +29,6 @@
 		58C4149A1BFEAD490053F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58C414A11BFEAD570053F438 /* RXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXCell.h; sourceTree = "<group>"; };
 		58C414A21BFEAD570053F438 /* RXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXCell.m; sourceTree = "<group>"; };
-		58C414A31BFEAD570053F438 /* RXConfigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXConfigCell.h; sourceTree = "<group>"; };
-		58C414A41BFEAD570053F438 /* RXConfigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXConfigCell.m; sourceTree = "<group>"; };
 		58C414A51BFEAD570053F438 /* RXFICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXFICell.h; sourceTree = "<group>"; };
 		58C414A61BFEAD570053F438 /* RXFICell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXFICell.m; sourceTree = "<group>"; };
 		58C414A71BFEAD570053F438 /* RXFunctionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXFunctionItem.h; sourceTree = "<group>"; };
@@ -106,8 +103,6 @@
 			children = (
 				58C414A11BFEAD570053F438 /* RXCell.h */,
 				58C414A21BFEAD570053F438 /* RXCell.m */,
-				58C414A31BFEAD570053F438 /* RXConfigCell.h */,
-				58C414A41BFEAD570053F438 /* RXConfigCell.m */,
 				58C414A51BFEAD570053F438 /* RXFICell.h */,
 				58C414A61BFEAD570053F438 /* RXFICell.m */,
 				58C414A71BFEAD570053F438 /* RXFunctionItem.h */,
@@ -192,7 +187,6 @@
 			files = (
 				58C414AE1BFEAD570053F438 /* RXFunctionItem.m in Sources */,
 				58C415191BFEFA1D0053F438 /* TestCell.m in Sources */,
-				58C414AC1BFEAD570053F438 /* RXConfigCell.m in Sources */,
 				58C414AD1BFEAD570053F438 /* RXFICell.m in Sources */,
 				58C414B31BFEAE040053F438 /* MainViewController.m in Sources */,
 				58C414AF1BFEAD570053F438 /* RXTVSectionItem.m in Sources */,
@@ -330,6 +324,7 @@
 				58C4149F1BFEAD490053F438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
