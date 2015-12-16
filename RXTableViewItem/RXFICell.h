@@ -9,12 +9,12 @@
 #import "RXCell.h"
 
 @interface RXFICell : RXCell
-@property (nonatomic, strong) UIImageView *iv;
+@property (nonatomic, strong) UIImageView *rx_imageView;
 
-@property (nonatomic, strong) UILabel *lbl;
+@property (nonatomic, strong) UILabel *label;
 
-@property (nonatomic, strong) UIImageView *ivArrow;
-@property (nonatomic, strong) UIView *vLine;
+@property (nonatomic, strong) UIImageView *arrowImageView;
+@property (nonatomic, strong) UIView *lineView;
 
 
 // 当没有image的时候,label的frame
