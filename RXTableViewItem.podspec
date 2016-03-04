@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RXTableViewItem"
-  s.version  = "0.5"
+  s.version  = "0.6"
   s.license  = "MIT"
   s.summary  = "RXTableViewItem is a relate tableview items"
   s.homepage = "https://github.com/xzjxylophone/RXTableViewItem"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = 'RXTableViewItem/*.{h,m}'
   s.frameworks = 'Foundation', 'UIKit'
   s.requires_arc = true
-  s.platform = :ios, '5.0'
+  s.platform = :ios, '7.0'
 
 end
 

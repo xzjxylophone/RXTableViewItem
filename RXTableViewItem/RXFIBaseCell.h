@@ -43,5 +43,6 @@ extern const NSString *kRXFIBaseCellAttributeName_lineViewHeight;
 // 当有image的时候,label的frame
 @property (nonatomic, assign) CGRect rectLblHaveIV;
 
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier attributeDic:(NSDictionary *)attributeDic;
 
 @end
