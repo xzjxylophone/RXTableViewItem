@@ -13,7 +13,8 @@
 #import "RXFICell.h"
 #import "RXFunctionItem.h"
 #import "RXTVSectionItem.h"
-
+#import "RXTVProtocolObject.h"
+#import "RXFIBaseCell.h"
 
 
 #endif /* RXTableViewItemHeader_h */

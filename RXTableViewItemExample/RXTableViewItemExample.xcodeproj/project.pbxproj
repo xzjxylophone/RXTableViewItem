@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5803154E1C898AE300FA3181 /* RXTVProtocolObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803154D1C898AE300FA3181 /* RXTVProtocolObject.m */; };
+		580315511C898BF700FA3181 /* RXFIBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 580315501C898BF700FA3181 /* RXFIBaseCell.m */; };
 		58C4148B1BFEAD490053F438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4148A1BFEAD490053F438 /* main.m */; };
 		58C4148E1BFEAD490053F438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C4148D1BFEAD490053F438 /* AppDelegate.m */; };
 		58C414961BFEAD490053F438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C414951BFEAD490053F438 /* Assets.xcassets */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5803154C1C898AE300FA3181 /* RXTVProtocolObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTVProtocolObject.h; sourceTree = "<group>"; };
+		5803154D1C898AE300FA3181 /* RXTVProtocolObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTVProtocolObject.m; sourceTree = "<group>"; };
+		5803154F1C898BF700FA3181 /* RXFIBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXFIBaseCell.h; sourceTree = "<group>"; };
+		580315501C898BF700FA3181 /* RXFIBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXFIBaseCell.m; sourceTree = "<group>"; };
 		58C414861BFEAD490053F438 /* RXTableViewItemExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXTableViewItemExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C4148A1BFEAD490053F438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58C4148C1BFEAD490053F438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +107,14 @@
 		58C414A01BFEAD570053F438 /* RXTableViewItem */ = {
 			isa = PBXGroup;
 			children = (
+				5803154C1C898AE300FA3181 /* RXTVProtocolObject.h */,
+				5803154D1C898AE300FA3181 /* RXTVProtocolObject.m */,
 				58C414A11BFEAD570053F438 /* RXCell.h */,
 				58C414A21BFEAD570053F438 /* RXCell.m */,
 				58C414A51BFEAD570053F438 /* RXFICell.h */,
 				58C414A61BFEAD570053F438 /* RXFICell.m */,
+				5803154F1C898BF700FA3181 /* RXFIBaseCell.h */,
+				580315501C898BF700FA3181 /* RXFIBaseCell.m */,
 				58C414A71BFEAD570053F438 /* RXFunctionItem.h */,
 				58C414A81BFEAD570053F438 /* RXFunctionItem.m */,
 				58C414A91BFEAD570053F438 /* RXTVSectionItem.h */,
@@ -190,9 +200,11 @@
 				58C414AD1BFEAD570053F438 /* RXFICell.m in Sources */,
 				58C414B31BFEAE040053F438 /* MainViewController.m in Sources */,
 				58C414AF1BFEAD570053F438 /* RXTVSectionItem.m in Sources */,
+				580315511C898BF700FA3181 /* RXFIBaseCell.m in Sources */,
 				58C414AB1BFEAD570053F438 /* RXCell.m in Sources */,
 				58C4148E1BFEAD490053F438 /* AppDelegate.m in Sources */,
 				58C4148B1BFEAD490053F438 /* main.m in Sources */,
+				5803154E1C898AE300FA3181 /* RXTVProtocolObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
