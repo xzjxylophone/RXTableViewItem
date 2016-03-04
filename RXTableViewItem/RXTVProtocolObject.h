@@ -22,6 +22,7 @@
 // delegate
 - (CGFloat)tvObject:(RXTVProtocolObject *)tvObject tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
 
+- (void)tvObject:(RXTVProtocolObject *)tvObject tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
 

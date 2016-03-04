@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RXTableViewItem"
-  s.version  = "0.6"
+  s.version  = "0.7"
   s.license  = "MIT"
   s.summary  = "RXTableViewItem is a relate tableview items"
   s.homepage = "https://github.com/xzjxylophone/RXTableViewItem"

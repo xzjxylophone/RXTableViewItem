@@ -91,6 +91,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if ([self.delegate respondsToSelector:@selector(tvObject:tableView:didSelectRowAtIndexPath:)]) {
+        [self.delegate tvObject:self tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
