@@ -37,18 +37,23 @@ const NSString *kRXFIBaseCellAttributeName_lineViewHeight = @"kRXFIBaseCellAttri
     if ([data isKindOfClass:[RXFunctionItem class]]) {
         RXFunctionItem *tmp = data;
         [self.rx_imageView removeFromSuperview];
-        UIImage *image = [UIImage imageNamed:tmp.iconName];
-        if (image != nil) {
-            self.rx_imageView.image = image;
-            [self addSubview:self.rx_imageView];
-            self.label.frame = self.rectLblHaveIV;
-        } else {
+        // 没有图片的时候
+        if (tmp.iconName.length == 0) {
             self.label.frame = self.rectLblNoIV;
+        } else {
+            UIImage *image = [UIImage imageNamed:tmp.iconName];
+            if (image != nil) {
+                self.rx_imageView.image = image;
+                [self addSubview:self.rx_imageView];
+                self.label.frame = self.rectLblHaveIV;
+            } else {
+                // 图片为空的时候
+                self.label.frame = self.rectLblNoIV;
+            }
         }
         self.label.text = tmp.title;
-        
     } else {
-        
+        // Do Nothing
     }
 }
 
