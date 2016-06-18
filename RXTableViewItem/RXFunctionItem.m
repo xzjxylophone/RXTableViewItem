@@ -10,7 +10,7 @@
 
 @implementation RXFunctionItem
 
-- (id)initWithIconName:(NSString *)iconName title:(NSString *)title action:(SEL)action type:(int)type
+- (id)initWithIconName:(NSString *)iconName title:(NSString *)title action:(SEL)action type:(NSInteger)type
 {
     if (self = [self initWithIconName:iconName title:title action:action type:type object:nil]) {
     }
@@ -18,7 +18,7 @@
 }
 
 
-- (id)initWithIconName:(NSString *)iconName title:(NSString *)title action:(SEL)action type:(int)type object:(id)object
+- (id)initWithIconName:(NSString *)iconName title:(NSString *)title action:(SEL)action type:(NSInteger)type object:(id)object
 {
     if (self = [self init]) {
         self.iconName = iconName;
