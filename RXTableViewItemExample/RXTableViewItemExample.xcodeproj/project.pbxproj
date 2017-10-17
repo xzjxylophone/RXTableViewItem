@@ -20,6 +20,8 @@
 		58C414B41BFEAE040053F438 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C414B21BFEAE040053F438 /* MainViewController.xib */; };
 		58C415191BFEFA1D0053F438 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C415171BFEFA1D0053F438 /* TestCell.m */; };
 		58C4151A1BFEFA1D0053F438 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C415181BFEFA1D0053F438 /* TestCell.xib */; };
+		C95A82E31E94EEB300DB5EB8 /* TDWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C95A82E11E94EEB300DB5EB8 /* TDWViewController.m */; };
+		C95A82E41E94EEB300DB5EB8 /* TDWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95A82E21E94EEB300DB5EB8 /* TDWViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,9 @@
 		58C415161BFEFA1D0053F438 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
 		58C415171BFEFA1D0053F438 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 		58C415181BFEFA1D0053F438 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		C95A82E01E94EEB300DB5EB8 /* TDWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDWViewController.h; sourceTree = "<group>"; };
+		C95A82E11E94EEB300DB5EB8 /* TDWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDWViewController.m; sourceTree = "<group>"; };
+		C95A82E21E94EEB300DB5EB8 /* TDWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDWViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 				58C415161BFEFA1D0053F438 /* TestCell.h */,
 				58C415171BFEFA1D0053F438 /* TestCell.m */,
 				58C415181BFEFA1D0053F438 /* TestCell.xib */,
+				C95A82E01E94EEB300DB5EB8 /* TDWViewController.h */,
+				C95A82E11E94EEB300DB5EB8 /* TDWViewController.m */,
+				C95A82E21E94EEB300DB5EB8 /* TDWViewController.xib */,
 			);
 			path = RXTableViewItemExample;
 			sourceTree = "<group>";
@@ -182,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95A82E41E94EEB300DB5EB8 /* TDWViewController.xib in Resources */,
 				58C414961BFEAD490053F438 /* Assets.xcassets in Resources */,
 				58C414B41BFEAE040053F438 /* MainViewController.xib in Resources */,
 				58C4151A1BFEFA1D0053F438 /* TestCell.xib in Resources */,
@@ -200,6 +209,7 @@
 				58C414AD1BFEAD570053F438 /* RXFICell.m in Sources */,
 				58C414B31BFEAE040053F438 /* MainViewController.m in Sources */,
 				58C414AF1BFEAD570053F438 /* RXTVSectionItem.m in Sources */,
+				C95A82E31E94EEB300DB5EB8 /* TDWViewController.m in Sources */,
 				580315511C898BF700FA3181 /* RXFIBaseCell.m in Sources */,
 				58C414AB1BFEAD570053F438 /* RXCell.m in Sources */,
 				58C4148E1BFEAD490053F438 /* AppDelegate.m in Sources */,
